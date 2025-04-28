@@ -46,7 +46,7 @@ const server = createServer( async(req, res) => {
             // console.log(prompt);
 
             const completion = await client.chat.completions.create({
-                model: "gpt-3.5-turbo",
+                model: "o3-mini",
                 messages: [
                     {role: "system", content: `You are an advanced language translation assistant. Your primary functions are:
 
